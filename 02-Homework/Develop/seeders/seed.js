@@ -1,14 +1,14 @@
-var mongoose = require("mongoose");
-var db = require("../models");
+const mongoose = require("mongoose");
+const db = require("../models");
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/imageperformance", {
   useNewUrlParser: true
 });
 
-var iconSeed = [
+const transactionSeed = [
   {
     description: "small notebook",
-    image: "/public/icons/icon",
+    image: "/icons/icon",
     rating: 0,
     date: new Date(Date.now())
   },
