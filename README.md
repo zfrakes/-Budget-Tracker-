@@ -1,1 +1,34 @@
-# -Budget-Tracker-
+# Budget-Tracker
+
+## Overview
+
+The Budget Tracker is an application where a user can withdrawal  deposit add expenses with or without a data/internet connection. When entering transactions offline, the user is able to populate the total when brought back online.
+
+## Technologies and Languages Used 
+* mongo 
+* mongoose 
+* Robo 3T
+* JavaScript 
+* Bootstrap
+* webmainfest 
+* service-worker
+
+## Launch
+
+run node server.js in terminal and run localhost:3000 in your browser 
+
+or view 
+ 
+Budget Tracker [live demo link]()
+
+## Author
+
+This application was created by Zoey Frakes
+
+## License 
+
+Budget Tracker is free software and can redistribute. Budget Tracker was developed to help calulate a person's money.
+
+© 2020 Zoey Frakes. All Rights Reserved.
+
+
