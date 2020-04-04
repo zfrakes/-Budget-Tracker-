@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/transaction", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/BudgetTracker", {
   useNewUrlParser: true
 });
 
@@ -24,8 +24,8 @@ const transactionSeed = [
 }
 ];
 
-db.Icon.deleteMany({})
-  .then(() => db.Image.collection.insertMany(transactionSeed))
+db.BudgetTracker.deleteMany({})
+  .then(() => db.BudgetTracker.collection.insertMany(transactionSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
