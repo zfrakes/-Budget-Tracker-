@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://<zfrakes>:<zrf081193>@ds117846.mlab.com:17846/heroku_1d61kk56r", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/BudgetTracker", {
   useNewUrlParser: true
 });
 
