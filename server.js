@@ -15,10 +15,13 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://<zfrakes>:<zrf081193>@ds117846.mlab.com:17846/heroku_1d61kk56", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://<zfrakes>:<zrf081193>@ds117846.mlab.com:17846/heroku_1d61kk56", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
 });
+
+
+
 
 // routes
 app.use(require("./routes/api.js"));
