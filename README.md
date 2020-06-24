@@ -19,7 +19,7 @@ Once cloning the repo onto your computer run node server.js in your terminal
 
 or view 
  
-Budget Tracker [live demo link]()
+Budget Tracker [live demo link](https://young-earth-10424.herokuapp.com/)
 
 ## Author
 
