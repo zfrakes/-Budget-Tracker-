@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Budget Tracker is an application where a user can withdrawal  deposit add expenses with or without a data/internet connection. When entering transactions offline, the user is able to populate the total when brought back online.
+The Budget Tracker is an application where a user can withdrawal,  deposit, add expenses with or without a data/internet connection. When entering transactions offline, the user is able to populate the total when brought back online.
 
 ## Technologies and Languages Used 
 * mongo 
@@ -15,7 +15,7 @@ The Budget Tracker is an application where a user can withdrawal  deposit add ex
 
 ## Launch
 
-run node server.js in terminal and run localhost:3000 in your browser 
+Once cloning the repo onto your computer run node server.js in your terminal
 
 or view 
  
